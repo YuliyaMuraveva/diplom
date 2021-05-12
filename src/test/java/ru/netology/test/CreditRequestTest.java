@@ -31,45 +31,41 @@ public class CreditRequestTest {
 
     @Test
     void shouldCreditApprovedCard() {
-        val cardInfo = DataHelper.getValidCardInfo("approved");
+        val cardInfo = new DataHelper().getValidCardInfo("approved");
         val creditPage = new OrderPage().goToCredit();
         creditPage.credit(cardInfo);
         creditPage.approved();
-        assertEquals("APPROVED", DbHelper.getCreditRequestStatus());
-        assertNull(DbHelper.getCreditId());
+        assertEquals("APPROVED", new DbHelper().getCreditRequestStatus());
+        assertNull(new DbHelper().getCreditId());
     }
 
     @Test
-//    @Disabled
     void shouldPaymentDeclinedCard() {
-        val cardInfo = DataHelper.getValidCardInfo("declined");
+        val cardInfo = new DataHelper().getValidCardInfo("declined");
         val creditPage = new OrderPage().goToCredit();
         creditPage.credit(cardInfo);
         creditPage.declined();
-        assertEquals("DECLINED", DbHelper.getCreditRequestStatus());
-        assertNull(DbHelper.getCreditId());
+        assertEquals("DECLINED", new DbHelper().getCreditRequestStatus());
+        assertNull(new DbHelper().getCreditId());
     }
 
     @Test
-//    @Disabled
     void shouldGetNotificationInvalidCard() {
-        val cardInfo = DataHelper.getInvalidCardInfo("approved");
+        val cardInfo = new DataHelper().getInvalidCardInfo("approved");
         val creditPage = new OrderPage().goToCredit();
         creditPage.credit(cardInfo);
         creditPage.invalidCardNotification();
     }
 
     @Test
-//    @Disabled
     void shouldGetNotificationWrongFormatCard() {
-        val cardInfo = DataHelper.getInvalidFormatCardInfo("4444");
+        val cardInfo = new DataHelper().getInvalidFormatCardInfo("4444");
         val creditPage = new OrderPage().goToCredit();
         creditPage.credit(cardInfo);
         creditPage.wrongFormatNotification();
     }
 
     @Test
-//    @Disabled
     void shouldGetNotificationEmptyFields() {
         val creditPage = new OrderPage().goToCredit();
         creditPage.emptyFieldNotification();

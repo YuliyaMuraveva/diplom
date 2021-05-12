@@ -6,24 +6,23 @@ import ru.netology.data.DataHelper;
 import java.time.Duration;
 
 import static com.codeborne.selenide.Condition.*;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.$$;
+import static com.codeborne.selenide.Selenide.*;
 
 public class PaymentPage {
     private SelenideElement heading = $$(".heading").find(exactText("Оплата по карте"));
     private SelenideElement cardNumber = $(".input [placeholder='0000 0000 0000 0000']");
     private SelenideElement month = $(".input [placeholder='08']");
     private SelenideElement year = $(".input [placeholder='22']");
-    private SelenideElement cardOwner = $$(".input__control").get(3);
+    private SelenideElement fieldCardOwner = $$(".input__top").find(text("Владелец")).parent();
+    private SelenideElement cardOwner = fieldCardOwner.$(".input__control");
     private SelenideElement cvc = $(".input [placeholder='999']");
     private SelenideElement proceedButton = $(".form-field button");
     private SelenideElement approvedNotification = $(".notification_status_ok");
     private SelenideElement declinedNotification = $(".notification_status_error");
-    private SelenideElement cardNotification = $$(".input__inner").get(0);
-    private SelenideElement monthNotification = $$(".input__inner").get(1);
-    private SelenideElement yearNotification = $$(".input__inner").get(2);
-    private SelenideElement ownerNotification = $$(".input__inner").get(3);
-    private SelenideElement cvcNotification = $$(".input__inner").get(4);
+    private SelenideElement fieldCard = $$(".input__top").find(text("Номер карты")).parent();
+    private SelenideElement fieldMonth = $$(".input__top").find(text("Месяц")).parent();
+    private SelenideElement fieldYear = $$(".input__top").find(text("Год")).parent();
+    private SelenideElement fieldCvc = $$(".input__top").find(text("CVC/CVV")).parent();
 
     public PaymentPage() {
         heading.shouldBe(visible);
@@ -47,25 +46,25 @@ public class PaymentPage {
     }
 
     public void invalidCardNotification() {
-        monthNotification.$(".input__sub").shouldBe(visible).shouldHave(ownText("Неверно указан срок действия карты"));
-        yearNotification.$(".input__sub").shouldBe(visible).shouldHave(ownText("Истёк срок действия карты"));
-        ownerNotification.$(".input__sub").shouldBe(visible).shouldHave(ownText("Неверный формат"));
+        fieldMonth.$(".input__sub").shouldBe(visible).shouldHave(ownText("Неверно указан срок действия карты"));
+        fieldYear.$(".input__sub").shouldBe(visible).shouldHave(ownText("Истёк срок действия карты"));
+        fieldCardOwner.$(".input__sub").shouldBe(visible).shouldHave(ownText("Неверный формат"));
     }
 
     public void wrongFormatNotification() {
-        cardNotification.$(".input__sub").shouldBe(visible).shouldHave(ownText("Неверный формат"));
-        monthNotification.$(".input__sub").shouldBe(visible).shouldHave(ownText("Неверный формат"));
-        yearNotification.$(".input__sub").shouldBe(visible).shouldHave(ownText("Неверный формат"));
-        ownerNotification.$(".input__sub").shouldBe(visible).shouldHave(ownText("Неверный формат"));
-        cvcNotification.$(".input__sub").shouldBe(visible).shouldHave(ownText("Неверный формат"));
+        fieldCard.$(".input__sub").shouldBe(visible).shouldHave(ownText("Неверный формат"));
+        fieldMonth.$(".input__sub").shouldBe(visible).shouldHave(ownText("Неверный формат"));
+        fieldYear.$(".input__sub").shouldBe(visible).shouldHave(ownText("Неверный формат"));
+        fieldCardOwner.$(".input__sub").shouldBe(visible).shouldHave(ownText("Неверный формат"));
+        fieldCvc.$(".input__sub").shouldBe(visible).shouldHave(ownText("Неверный формат"));
     }
 
     public void emptyFieldNotification() {
         proceedButton.click();
-        cardNotification.$(".input__sub").shouldBe(visible).shouldHave(text("Поле обязательно для заполнения"));
-        monthNotification.$(".input__sub").shouldBe(visible).shouldHave(text("Поле обязательно для заполнения"));
-        yearNotification.$(".input__sub").shouldBe(visible).shouldHave(ownText("Поле обязательно для заполнения"));
-        ownerNotification.$(".input__sub").shouldBe(visible).shouldHave(ownText("Поле обязательно для заполнения"));
-        cvcNotification.$(".input__sub").shouldBe(visible).shouldHave(ownText("Поле обязательно для заполнения"));
+        fieldCard.$(".input__sub").shouldBe(visible).shouldHave(text("Поле обязательно для заполнения"));
+        fieldMonth.$(".input__sub").shouldBe(visible).shouldHave(text("Поле обязательно для заполнения"));
+        fieldYear.$(".input__sub").shouldBe(visible).shouldHave(ownText("Поле обязательно для заполнения"));
+        fieldCardOwner.$(".input__sub").shouldBe(visible).shouldHave(ownText("Поле обязательно для заполнения"));
+        fieldCvc.$(".input__sub").shouldBe(visible).shouldHave(ownText("Поле обязательно для заполнения"));
     }
 }

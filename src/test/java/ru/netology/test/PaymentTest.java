@@ -31,46 +31,42 @@ public class PaymentTest {
 
     @Test
     void shouldPaymentApprovedCard() {
-        val cardInfo = DataHelper.getValidCardInfo("approved");
+        val cardInfo = new DataHelper().getValidCardInfo("approved");
         val paymentPage = new OrderPage().goToPayment();
         paymentPage.payment(cardInfo);
         paymentPage.approved();
-        assertEquals("APPROVED", DbHelper.getPaymentStatus());
-        assertEquals(4500000, DbHelper.getPaymentAmount());
-        assertNull(DbHelper.getCreditId());
+        assertEquals("APPROVED",new DbHelper().getPaymentStatus());
+        assertEquals(4500000, new DbHelper().getPaymentAmount());
+        assertNull(new DbHelper().getCreditId());
     }
 
     @Test
-//    @Disabled
     void shouldPaymentDeclinedCard() {
-        val cardInfo = DataHelper.getValidCardInfo("declined");
+        val cardInfo = new DataHelper().getValidCardInfo("declined");
         val paymentPage = new OrderPage().goToPayment();
         paymentPage.payment(cardInfo);
         paymentPage.declined();
-        assertEquals("DECLINED", DbHelper.getPaymentStatus());
-        assertNull(DbHelper.getCreditId());
+        assertEquals("DECLINED", new DbHelper().getPaymentStatus());
+        assertNull(new DbHelper().getCreditId());
     }
 
     @Test
-//    @Disabled
     void shouldGetNotificationInvalidCard() {
-        val cardInfo = DataHelper.getInvalidCardInfo("approved");
+        val cardInfo = new DataHelper().getInvalidCardInfo("approved");
         val paymentPage = new OrderPage().goToPayment();
         paymentPage.payment(cardInfo);
         paymentPage.invalidCardNotification();
     }
 
     @Test
-//    @Disabled
     void shouldGetNotificationWrongFormatCard() {
-        val cardInfo = DataHelper.getInvalidFormatCardInfo("4444");
+        val cardInfo = new DataHelper().getInvalidFormatCardInfo("4444");
         val paymentPage = new OrderPage().goToPayment();
         paymentPage.payment(cardInfo);
         paymentPage.wrongFormatNotification();
     }
 
     @Test
-//    @Disabled
     void shouldGetNotificationEmptyFields() {
         val paymentPage = new OrderPage().goToPayment();
         paymentPage.emptyFieldNotification();
