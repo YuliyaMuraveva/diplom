@@ -3,564 +3,139 @@
   "children" : [ {
     "name" : "localhost.localdomain",
     "children" : [ {
-      "name" : "21939@localhost.localdomain.Test worker(11)",
+      "name" : "9096@localhost.localdomain.Test worker(11)",
       "children" : [ {
-        "name" : "shouldPaymentDeclinedCard()",
-        "uid" : "7b639e883bdd78be",
-        "parentUid" : "b7674254a9800c65f25e4952c61cf5eb",
+        "name" : "shouldGetNotificationEmptyFields()",
+        "uid" : "8c8448ad28328de0",
+        "parentUid" : "f6a44e266d0aabe0551ffca6f4a50b40",
         "status" : "failed",
         "time" : {
-          "start" : 1620310125308,
-          "stop" : 1620310143363,
-          "duration" : 18055
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "shouldGetNotificationInvalidCard()",
-        "uid" : "4dcad691dc3ac5f9",
-        "parentUid" : "b7674254a9800c65f25e4952c61cf5eb",
-        "status" : "failed",
-        "time" : {
-          "start" : 1620310104754,
-          "stop" : 1620310112221,
-          "duration" : 7467
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "shouldCreditApprovedCard()",
-        "uid" : "8250fe58bbdf377",
-        "parentUid" : "b7674254a9800c65f25e4952c61cf5eb",
-        "status" : "passed",
-        "time" : {
-          "start" : 1620310098631,
-          "stop" : 1620310104619,
-          "duration" : 5988
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "shouldGetNotificationInvalidCard()",
-        "uid" : "9bee7e6f584f9dd9",
-        "parentUid" : "b7674254a9800c65f25e4952c61cf5eb",
-        "status" : "failed",
-        "time" : {
-          "start" : 1620310143373,
-          "stop" : 1620310150628,
-          "duration" : 7255
+          "start" : 1621093919924,
+          "stop" : 1621093925819,
+          "duration" : 5895
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "shouldPaymentApprovedCard()",
-        "uid" : "12de27c01dbd7e32",
-        "parentUid" : "b7674254a9800c65f25e4952c61cf5eb",
+        "uid" : "ec0fa1d9723f0696",
+        "parentUid" : "f6a44e266d0aabe0551ffca6f4a50b40",
         "status" : "passed",
         "time" : {
-          "start" : 1620310150636,
-          "stop" : 1620310162271,
-          "duration" : 11635
+          "start" : 1621093953176,
+          "stop" : 1621093964963,
+          "duration" : 11787
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldCreditApprovedCard()",
+        "uid" : "415450cd98c99925",
+        "parentUid" : "f6a44e266d0aabe0551ffca6f4a50b40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621093889101,
+          "stop" : 1621093903150,
+          "duration" : 14049
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldGetNotificationWrongFormatCard()",
+        "uid" : "a010946d22e1bc06",
+        "parentUid" : "f6a44e266d0aabe0551ffca6f4a50b40",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621093911665,
+          "stop" : 1621093919903,
+          "duration" : 8238
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "shouldPaymentDeclinedCard()",
-        "uid" : "9a30e9a676e50e2c",
-        "parentUid" : "b7674254a9800c65f25e4952c61cf5eb",
+        "uid" : "f69e44f1cc61bdd0",
+        "parentUid" : "f6a44e266d0aabe0551ffca6f4a50b40",
         "status" : "failed",
         "time" : {
-          "start" : 1620310068349,
-          "stop" : 1620310098389,
-          "duration" : 30040
+          "start" : 1621093860077,
+          "stop" : 1621093888851,
+          "duration" : 28774
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldPaymentDeclinedCard()",
+        "uid" : "815f2ec80e43a938",
+        "parentUid" : "f6a44e266d0aabe0551ffca6f4a50b40",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621093925857,
+          "stop" : 1621093944747,
+          "duration" : 18890
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "shouldGetNotificationWrongFormatCard()",
-        "uid" : "337de86cdd20d75",
-        "parentUid" : "b7674254a9800c65f25e4952c61cf5eb",
+        "uid" : "a3d281ecfa72247a",
+        "parentUid" : "f6a44e266d0aabe0551ffca6f4a50b40",
         "status" : "failed",
         "time" : {
-          "start" : 1620310162278,
-          "stop" : 1620310169334,
-          "duration" : 7056
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "shouldGetNotificationWrongFormatCard()",
-        "uid" : "ec9a0db6b5e99c3a",
-        "parentUid" : "b7674254a9800c65f25e4952c61cf5eb",
-        "status" : "failed",
-        "time" : {
-          "start" : 1620310112233,
-          "stop" : 1620310119497,
-          "duration" : 7264
+          "start" : 1621093964968,
+          "stop" : 1621093972297,
+          "duration" : 7329
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "shouldGetNotificationEmptyFields()",
-        "uid" : "627e63ff0a96749e",
-        "parentUid" : "b7674254a9800c65f25e4952c61cf5eb",
+        "uid" : "cdc24aebaa54d93a",
+        "parentUid" : "f6a44e266d0aabe0551ffca6f4a50b40",
         "status" : "failed",
         "time" : {
-          "start" : 1620310169351,
-          "stop" : 1620310175029,
-          "duration" : 5678
+          "start" : 1621093972308,
+          "stop" : 1621093978386,
+          "duration" : 6078
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "shouldGetNotificationEmptyFields()",
-        "uid" : "66970ecce75dc656",
-        "parentUid" : "b7674254a9800c65f25e4952c61cf5eb",
-        "status" : "failed",
-        "time" : {
-          "start" : 1620310119507,
-          "stop" : 1620310125268,
-          "duration" : 5761
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "b7674254a9800c65f25e4952c61cf5eb"
-    }, {
-      "name" : "7979@localhost.localdomain.Test worker(11)",
-      "children" : [ {
-        "name" : "shouldPaymentApprovedCard()",
-        "uid" : "2786b73647569dd8",
-        "parentUid" : "3cd4dd4ec796e1a7429044a1ecb317a2",
-        "status" : "failed",
-        "time" : {
-          "start" : 1620758094979,
-          "stop" : 1620758110430,
-          "duration" : 15451
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "3cd4dd4ec796e1a7429044a1ecb317a2"
-    }, {
-      "name" : "17370@localhost.localdomain.Test worker(11)",
-      "children" : [ {
-        "name" : "shouldGetNotificationEmptyFields()",
-        "uid" : "419621eb9b4ea796",
-        "parentUid" : "171653e8075623ca3910ed8a755d9df5",
-        "status" : "passed",
-        "time" : {
-          "start" : 1620842433523,
-          "stop" : 1620842441187,
-          "duration" : 7664
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "171653e8075623ca3910ed8a755d9df5"
-    }, {
-      "name" : "17821@localhost.localdomain.Test worker(11)",
-      "children" : [ {
-        "name" : "shouldGetNotificationWrongFormatCard()",
-        "uid" : "c397e0192b7efb18",
-        "parentUid" : "fa3977878099f9165973f5a55f6512c2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1620842917606,
-          "stop" : 1620842928628,
-          "duration" : 11022
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "fa3977878099f9165973f5a55f6512c2"
-    }, {
-      "name" : "8372@localhost.localdomain.Test worker(11)",
-      "children" : [ {
-        "name" : "shouldPaymentApprovedCard()",
-        "uid" : "f0556df8af6b28b",
-        "parentUid" : "b5363a3608dbbfc3314a7599d595fd69",
-        "status" : "failed",
-        "time" : {
-          "start" : 1620758276328,
-          "stop" : 1620758291264,
-          "duration" : 14936
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "b5363a3608dbbfc3314a7599d595fd69"
-    }, {
-      "name" : "11130@localhost.localdomain.Test worker(11)",
-      "children" : [ {
-        "name" : "shouldPaymentApprovedCard()",
-        "uid" : "b944cfc3a72eccac",
-        "parentUid" : "48752614061350320a037378fb99be67",
-        "status" : "failed",
-        "time" : {
-          "start" : 1620836638584,
-          "stop" : 1620836653150,
-          "duration" : 14566
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "48752614061350320a037378fb99be67"
-    }, {
-      "name" : "13743@localhost.localdomain.Test worker(11)",
-      "children" : [ {
-        "name" : "shouldPaymentApprovedCard()",
-        "uid" : "611830416ed6b31e",
-        "parentUid" : "b14921e5a6e8c0e7f85f92600e29dafb",
-        "status" : "broken",
-        "time" : {
-          "start" : 1620840141141,
-          "stop" : 1620840148657,
-          "duration" : 7516
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "b14921e5a6e8c0e7f85f92600e29dafb"
-    }, {
-      "name" : "13431@localhost.localdomain.Test worker(11)",
-      "children" : [ {
-        "name" : "shouldPaymentApprovedCard()",
-        "uid" : "202b07f1ade08a59",
-        "parentUid" : "020ae0a332e882c434fe548b4aa7f0ea",
-        "status" : "failed",
-        "time" : {
-          "start" : 1620839950688,
-          "stop" : 1620839963839,
-          "duration" : 13151
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "020ae0a332e882c434fe548b4aa7f0ea"
-    }, {
-      "name" : "9704@localhost.localdomain.Test worker(11)",
-      "children" : [ {
-        "name" : "shouldPaymentApprovedCard()",
-        "uid" : "309484c7c7ed279b",
-        "parentUid" : "5379c7aacf0fa4a7bca7d48b81955be9",
-        "status" : "failed",
-        "time" : {
-          "start" : 1620758902860,
-          "stop" : 1620758916826,
-          "duration" : 13966
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "5379c7aacf0fa4a7bca7d48b81955be9"
-    }, {
-      "name" : "15066@localhost.localdomain.Test worker(11)",
-      "children" : [ {
-        "name" : "shouldPaymentApprovedCard()",
-        "uid" : "85b72fa14e18b6bf",
-        "parentUid" : "fbbdd95fdbad68b7e7e64fad97cc51cd",
-        "status" : "failed",
-        "time" : {
-          "start" : 1620840797185,
-          "stop" : 1620840811536,
-          "duration" : 14351
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "fbbdd95fdbad68b7e7e64fad97cc51cd"
-    }, {
-      "name" : "17129@localhost.localdomain.Test worker(11)",
-      "children" : [ {
-        "name" : "shouldGetNotificationEmptyFields()",
-        "uid" : "52b3e8c75ebab5f9",
-        "parentUid" : "f4397d37f29efa97daac227f92569762",
-        "status" : "failed",
-        "time" : {
-          "start" : 1620842325629,
-          "stop" : 1620842337505,
-          "duration" : 11876
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "f4397d37f29efa97daac227f92569762"
-    }, {
-      "name" : "14314@localhost.localdomain.Test worker(11)",
-      "children" : [ {
-        "name" : "shouldPaymentApprovedCard()",
-        "uid" : "484a097abd1aab44",
-        "parentUid" : "aaaf8946e033c79318d3da33545fa6b9",
-        "status" : "failed",
-        "time" : {
-          "start" : 1620840469258,
-          "stop" : 1620840483670,
-          "duration" : 14412
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "aaaf8946e033c79318d3da33545fa6b9"
-    }, {
-      "name" : "16467@localhost.localdomain.Test worker(11)",
-      "children" : [ {
-        "name" : "shouldPaymentApprovedCard()",
-        "uid" : "ea7aaff7856795c2",
-        "parentUid" : "e42d7bad760ca7e14785c8dbc21ebe4b",
-        "status" : "passed",
-        "time" : {
-          "start" : 1620841968430,
-          "stop" : 1620841982711,
-          "duration" : 14281
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "e42d7bad760ca7e14785c8dbc21ebe4b"
-    }, {
-      "name" : "15962@localhost.localdomain.Test worker(11)",
-      "children" : [ {
-        "name" : "shouldPaymentApprovedCard()",
-        "uid" : "6dfbf1aac71cb41c",
-        "parentUid" : "8f5f056558c9feeb10d1fc3ebe16aebc",
-        "status" : "passed",
-        "time" : {
-          "start" : 1620841581459,
-          "stop" : 1620841598337,
-          "duration" : 16878
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "8f5f056558c9feeb10d1fc3ebe16aebc"
-    }, {
-      "name" : "14815@localhost.localdomain.Test worker(11)",
-      "children" : [ {
-        "name" : "shouldPaymentApprovedCard()",
-        "uid" : "59310adf2eff2d83",
-        "parentUid" : "ace270492ee41e8f5d66773b46a78418",
-        "status" : "failed",
-        "time" : {
-          "start" : 1620840710677,
-          "stop" : 1620840724738,
-          "duration" : 14061
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "ace270492ee41e8f5d66773b46a78418"
-    }, {
-      "name" : "18480@localhost.localdomain.Test worker(11)",
-      "children" : [ {
-        "name" : "shouldGetNotificationWrongFormatCard()",
-        "uid" : "f3ba501b00a71e6d",
-        "parentUid" : "3c59d261ed87386aede56c633c1bfd1f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1620843361275,
-          "stop" : 1620843372976,
-          "duration" : 11701
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "3c59d261ed87386aede56c633c1bfd1f"
-    }, {
-      "name" : "18251@localhost.localdomain.Test worker(11)",
-      "children" : [ {
-        "name" : "shouldCreditApprovedCard()",
-        "uid" : "a8fb48956de9c343",
-        "parentUid" : "a87c6a124288d8b1f8130cd792f1827e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1620843327855,
-          "stop" : 1620843349044,
-          "duration" : 21189
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "a87c6a124288d8b1f8130cd792f1827e"
-    }, {
-      "name" : "13976@localhost.localdomain.Test worker(11)",
-      "children" : [ {
-        "name" : "shouldPaymentApprovedCard()",
-        "uid" : "baa46232e96e2488",
-        "parentUid" : "b1e483c49b17e58a1f64ab0bb86fbb50",
-        "status" : "broken",
-        "time" : {
-          "start" : 1620840211189,
-          "stop" : 1620840217975,
-          "duration" : 6786
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "b1e483c49b17e58a1f64ab0bb86fbb50"
-    }, {
-      "name" : "9018@localhost.localdomain.Test worker(11)",
-      "children" : [ {
-        "name" : "shouldPaymentApprovedCard()",
-        "uid" : "4e41e663397b3021",
-        "parentUid" : "815d6cd0b9e245a0ed809294cf3cd7c9",
-        "status" : "failed",
-        "time" : {
-          "start" : 1620758577054,
-          "stop" : 1620758591604,
-          "duration" : 14550
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "815d6cd0b9e245a0ed809294cf3cd7c9"
-    }, {
-      "name" : "18696@localhost.localdomain.Test worker(11)",
-      "children" : [ {
-        "name" : "shouldGetNotificationEmptyFields()",
-        "uid" : "cb8a72283475bdba",
-        "parentUid" : "e8926c6782426b105d7613df6252ecec",
-        "status" : "passed",
-        "time" : {
-          "start" : 1620843384226,
-          "stop" : 1620843393129,
-          "duration" : 8903
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "e8926c6782426b105d7613df6252ecec"
-    }, {
-      "name" : "7396@localhost.localdomain.Test worker(11)",
-      "children" : [ {
-        "name" : "shouldCreditApprovedCard()",
-        "uid" : "4789772f4621644a",
-        "parentUid" : "aaf50d9fc42ddacf4314a1785a319dd4",
-        "status" : "passed",
-        "time" : {
-          "start" : 1620757649709,
-          "stop" : 1620757667255,
-          "duration" : 17546
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "aaf50d9fc42ddacf4314a1785a319dd4"
-    }, {
-      "name" : "9287@localhost.localdomain.Test worker(11)",
-      "children" : [ {
-        "name" : "shouldPaymentApprovedCard()",
-        "uid" : "591426152a37a9b0",
-        "parentUid" : "e0b505f44316fa762cfa322df1c5c708",
-        "status" : "failed",
-        "time" : {
-          "start" : 1620758645779,
-          "stop" : 1620758659928,
-          "duration" : 14149
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "e0b505f44316fa762cfa322df1c5c708"
-    }, {
-      "name" : "8601@localhost.localdomain.Test worker(11)",
-      "children" : [ {
         "name" : "shouldGetNotificationInvalidCard()",
-        "uid" : "662bce04b6935211",
-        "parentUid" : "a43ee91438adbbd986e7fca8af58d464",
+        "uid" : "28724de3e625cac8",
+        "parentUid" : "f6a44e266d0aabe0551ffca6f4a50b40",
         "status" : "failed",
         "time" : {
-          "start" : 1620758332948,
-          "stop" : 1620758348622,
-          "duration" : 15674
+          "start" : 1621093903302,
+          "stop" : 1621093911643,
+          "duration" : 8341
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldGetNotificationInvalidCard()",
+        "uid" : "10f9492b766251b4",
+        "parentUid" : "f6a44e266d0aabe0551ffca6f4a50b40",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621093944767,
+          "stop" : 1621093953165,
+          "duration" : 8398
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "a43ee91438adbbd986e7fca8af58d464"
-    }, {
-      "name" : "15550@localhost.localdomain.Test worker(11)",
-      "children" : [ {
-        "name" : "shouldPaymentApprovedCard()",
-        "uid" : "5855961d375f42c4",
-        "parentUid" : "7062eab6e83aba25265fb528a13cbd25",
-        "status" : "failed",
-        "time" : {
-          "start" : 1620841235104,
-          "stop" : 1620841249155,
-          "duration" : 14051
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "7062eab6e83aba25265fb528a13cbd25"
-    }, {
-      "name" : "10191@localhost.localdomain.Test worker(11)",
-      "children" : [ {
-        "name" : "shouldPaymentApprovedCard()",
-        "uid" : "5e5101ce618bd58d",
-        "parentUid" : "e49a00370e86a4f8e557ca0f8756444a",
-        "status" : "failed",
-        "time" : {
-          "start" : 1620759375288,
-          "stop" : 1620759389635,
-          "duration" : 14347
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "e49a00370e86a4f8e557ca0f8756444a"
-    }, {
-      "name" : "16826@localhost.localdomain.Test worker(11)",
-      "children" : [ {
-        "name" : "shouldGetNotificationEmptyFields()",
-        "uid" : "7479a88669794bd6",
-        "parentUid" : "321932f9485bd273e1c4ed013bc37e43",
-        "status" : "failed",
-        "time" : {
-          "start" : 1620842219300,
-          "stop" : 1620842232939,
-          "duration" : 13639
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "321932f9485bd273e1c4ed013bc37e43"
+      "uid" : "f6a44e266d0aabe0551ffca6f4a50b40"
     } ],
     "uid" : "8c67239ea958cc65c2d8b70742467d82"
   } ],

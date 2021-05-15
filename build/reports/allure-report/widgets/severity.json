@@ -1,101 +1,101 @@
 [ {
-  "uid" : "662bce04b6935211",
-  "name" : "shouldGetNotificationInvalidCard()",
-  "time" : {
-    "start" : 1620758332948,
-    "stop" : 1620758348622,
-    "duration" : 15674
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "7b639e883bdd78be",
-  "name" : "shouldPaymentDeclinedCard()",
-  "time" : {
-    "start" : 1620310125308,
-    "stop" : 1620310143363,
-    "duration" : 18055
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "cb8a72283475bdba",
-  "name" : "shouldGetNotificationEmptyFields()",
-  "time" : {
-    "start" : 1620843384226,
-    "stop" : 1620843393129,
-    "duration" : 8903
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4dcad691dc3ac5f9",
-  "name" : "shouldGetNotificationInvalidCard()",
-  "time" : {
-    "start" : 1620310104754,
-    "stop" : 1620310112221,
-    "duration" : 7467
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "ea7aaff7856795c2",
+  "uid" : "ec0fa1d9723f0696",
   "name" : "shouldPaymentApprovedCard()",
   "time" : {
-    "start" : 1620841968430,
-    "stop" : 1620841982711,
-    "duration" : 14281
+    "start" : 1621093953176,
+    "stop" : 1621093964963,
+    "duration" : 11787
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9a30e9a676e50e2c",
-  "name" : "shouldPaymentDeclinedCard()",
+  "uid" : "a010946d22e1bc06",
+  "name" : "shouldGetNotificationWrongFormatCard()",
   "time" : {
-    "start" : 1620310068349,
-    "stop" : 1620310098389,
-    "duration" : 30040
+    "start" : 1621093911665,
+    "stop" : 1621093919903,
+    "duration" : 8238
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "419621eb9b4ea796",
+  "uid" : "28724de3e625cac8",
+  "name" : "shouldGetNotificationInvalidCard()",
+  "time" : {
+    "start" : 1621093903302,
+    "stop" : 1621093911643,
+    "duration" : 8341
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c8448ad28328de0",
   "name" : "shouldGetNotificationEmptyFields()",
   "time" : {
-    "start" : 1620842433523,
-    "stop" : 1620842441187,
-    "duration" : 7664
+    "start" : 1621093919924,
+    "stop" : 1621093925819,
+    "duration" : 5895
   },
-  "status" : "passed",
+  "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "f3ba501b00a71e6d",
-  "name" : "shouldGetNotificationWrongFormatCard()",
-  "time" : {
-    "start" : 1620843361275,
-    "stop" : 1620843372976,
-    "duration" : 11701
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a8fb48956de9c343",
+  "uid" : "415450cd98c99925",
   "name" : "shouldCreditApprovedCard()",
   "time" : {
-    "start" : 1620843327855,
-    "stop" : 1620843349044,
-    "duration" : 21189
+    "start" : 1621093889101,
+    "stop" : 1621093903150,
+    "duration" : 14049
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c397e0192b7efb18",
+  "uid" : "f69e44f1cc61bdd0",
+  "name" : "shouldPaymentDeclinedCard()",
+  "time" : {
+    "start" : 1621093860077,
+    "stop" : 1621093888851,
+    "duration" : 28774
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "815f2ec80e43a938",
+  "name" : "shouldPaymentDeclinedCard()",
+  "time" : {
+    "start" : 1621093925857,
+    "stop" : 1621093944747,
+    "duration" : 18890
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "10f9492b766251b4",
+  "name" : "shouldGetNotificationInvalidCard()",
+  "time" : {
+    "start" : 1621093944767,
+    "stop" : 1621093953165,
+    "duration" : 8398
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "cdc24aebaa54d93a",
+  "name" : "shouldGetNotificationEmptyFields()",
+  "time" : {
+    "start" : 1621093972308,
+    "stop" : 1621093978386,
+    "duration" : 6078
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3d281ecfa72247a",
   "name" : "shouldGetNotificationWrongFormatCard()",
   "time" : {
-    "start" : 1620842917606,
-    "stop" : 1620842928628,
-    "duration" : 11022
+    "start" : 1621093964968,
+    "stop" : 1621093972297,
+    "duration" : 7329
   },
-  "status" : "passed",
+  "status" : "failed",
   "severity" : "normal"
 } ]

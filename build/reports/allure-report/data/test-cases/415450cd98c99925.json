@@ -1,0 +1,233 @@
+{
+  "uid" : "415450cd98c99925",
+  "name" : "shouldCreditApprovedCard()",
+  "fullName" : "ru.netology.test.CreditRequestTest.shouldCreditApprovedCard",
+  "historyId" : "d8757b35e45dfacedb7262d0f64d8dbd",
+  "time" : {
+    "start" : 1621093889101,
+    "stop" : 1621093903150,
+    "duration" : 14049
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") http://localhost:8080/",
+      "time" : {
+        "start" : 1621093889103,
+        "stop" : 1621093889388,
+        "duration" : 285
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".heading.findBy(exact text 'Путешествие дня')\") should be(visible)",
+      "time" : {
+        "start" : 1621093889550,
+        "stop" : 1621093889665,
+        "duration" : 115
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".button__text.findBy(exact text 'Купить в кредит')\") click()",
+      "time" : {
+        "start" : 1621093889666,
+        "stop" : 1621093889991,
+        "duration" : 325
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".heading.findBy(exact text 'Кредит по данным карты')\") should be(visible)",
+      "time" : {
+        "start" : 1621093889992,
+        "stop" : 1621093890141,
+        "duration" : 149
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".input [placeholder='0000 0000 0000 0000']\") set value(4444 4444 4444 4441)",
+      "time" : {
+        "start" : 1621093890142,
+        "stop" : 1621093890594,
+        "duration" : 452
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".input [placeholder='08']\") set value(08)",
+      "time" : {
+        "start" : 1621093890594,
+        "stop" : 1621093890946,
+        "duration" : 352
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".input [placeholder='22']\") set value(23)",
+      "time" : {
+        "start" : 1621093890946,
+        "stop" : 1621093891238,
+        "duration" : 292
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".input__top.findBy(text 'Владелец')/By.xpath: ../.input__control\") set value(GERHOLD LEWIS)",
+      "time" : {
+        "start" : 1621093891239,
+        "stop" : 1621093891926,
+        "duration" : 687
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".input [placeholder='999']\") set value(213)",
+      "time" : {
+        "start" : 1621093891926,
+        "stop" : 1621093892228,
+        "duration" : 302
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".form-field button\") click()",
+      "time" : {
+        "start" : 1621093892229,
+        "stop" : 1621093892416,
+        "duration" : 187
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".notification_status_ok\") should be([visible, 15 s.])",
+      "time" : {
+        "start" : 1621093892417,
+        "stop" : 1621093901877,
+        "duration" : 9460
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "localhost.localdomain"
+  }, {
+    "name" : "thread",
+    "value" : "9096@localhost.localdomain.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ru.netology.test.CreditRequestTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.netology.test.CreditRequestTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldCreditApprovedCard"
+  }, {
+    "name" : "suite",
+    "value" : "ru.netology.test.CreditRequestTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "415450cd98c99925.json",
+  "parameterValues" : [ ]
+}

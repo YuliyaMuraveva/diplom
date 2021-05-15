@@ -3,17 +3,17 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta http-equiv="x-ua-compatible" content="IE=edge"/>
-<title>Test results - CreditRequestTest</title>
+<title>Test results - PaymentTest</title>
 <link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
 <link href="../css/style.css" rel="stylesheet" type="text/css"/>
 <script src="../js/report.js" type="text/javascript"></script>
 </head>
 <body>
 <div id="content">
-<h1>CreditRequestTest</h1>
+<h1>PaymentTest</h1>
 <div class="breadcrumbs">
 <a href="../index.html">all</a> &gt; 
-<a href="../packages/ru.netology.test.html">ru.netology.test</a> &gt; CreditRequestTest</div>
+<a href="../packages/ru.netology.test.html">ru.netology.test</a> &gt; PaymentTest</div>
 <div id="summary">
 <table>
 <tr>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">1m5.72s</div>
+<div class="counter">52.575s</div>
 <p>duration</p>
 </div>
 </td>
@@ -66,9 +66,6 @@
 <li>
 <a href="#tab1">Tests</a>
 </li>
-<li>
-<a href="#tab2">Standard error</a>
-</li>
 </ul>
 <div id="tab0" class="tab">
 <h2>Failed tests</h2>
@@ -76,11 +73,10 @@
 <a name="shouldGetNotificationEmptyFields()"></a>
 <h3 class="failures">shouldGetNotificationEmptyFields()</h3>
 <span class="code">
-<pre>Element should have own text 'Поле обязательно для заполнения' {.input__top.findBy(text 'Номер карты')/By.xpath: ../.input__sub}
+<pre>Element should have text 'Поле обязательно для заполнения' {.input__top.findBy(text 'Номер карты')/By.xpath: ../.input__sub}
 Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'
-Actual value: Неверный формат
-Screenshot: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1621093925059.3.png
-Page source: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1621093925059.3.html
+Screenshot: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1621093977598.7.png
+Page source: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1621093977598.7.html
 Timeout: 4 s.
 	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:121)
 	at com.codeborne.selenide.commands.Should.execute(Should.java:30)
@@ -89,8 +85,8 @@ Timeout: 4 s.
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:133)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:85)
 	at com.sun.proxy.$Proxy15.shouldHave(Unknown Source)
-	at ru.netology.page.CreditPage.emptyFieldNotification(CreditPage.java:65)
-	at ru.netology.test.CreditRequestTest.shouldGetNotificationEmptyFields(CreditRequestTest.java:71)
+	at ru.netology.page.PaymentPage.emptyFieldNotification(PaymentPage.java:64)
+	at ru.netology.test.PaymentTest.shouldGetNotificationEmptyFields(PaymentTest.java:72)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -190,8 +186,8 @@ Timeout: 4 s.
 <span class="code">
 <pre>Element not found {.input__top.findBy(text 'Владелец')/By.xpath: ../.input__sub}
 Expected: visible
-Screenshot: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1621093910808.1.png
-Page source: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1621093910808.1.html
+Screenshot: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1621093952393.5.png
+Page source: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1621093952393.5.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.input__sub&quot;}
 	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)
@@ -203,8 +199,8 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:133)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:85)
 	at com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
-	at ru.netology.page.CreditPage.invalidCardNotification(CreditPage.java:52)
-	at ru.netology.test.CreditRequestTest.shouldGetNotificationInvalidCard(CreditRequestTest.java:57)
+	at ru.netology.page.PaymentPage.invalidCardNotification(PaymentPage.java:51)
+	at ru.netology.test.PaymentTest.shouldGetNotificationInvalidCard(PaymentTest.java:58)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -304,8 +300,7 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /tmp/.com.google.Chrome.xzuGgK}, goog:chromeOptions: {debuggerAddress: localhost:39259}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
 Session ID: 572ef208384a1c831ea910772b32eb7f
 *** Element info: {Using=css selector, value=.input__sub}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
@@ -333,8 +328,8 @@ Session ID: 572ef208384a1c831ea910772b32eb7f
 <span class="code">
 <pre>Element not found {.input__top.findBy(text 'Месяц')/By.xpath: ../.input__sub}
 Expected: visible
-Screenshot: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1621093919105.2.png
-Page source: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1621093919105.2.html
+Screenshot: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1621093971525.6.png
+Page source: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1621093971525.6.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.input__sub&quot;}
 	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)
@@ -346,8 +341,8 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:133)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:85)
 	at com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
-	at ru.netology.page.CreditPage.wrongFormatNotification(CreditPage.java:57)
-	at ru.netology.test.CreditRequestTest.shouldGetNotificationWrongFormatCard(CreditRequestTest.java:65)
+	at ru.netology.page.PaymentPage.wrongFormatNotification(PaymentPage.java:56)
+	at ru.netology.test.PaymentTest.shouldGetNotificationWrongFormatCard(PaymentTest.java:66)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -476,8 +471,8 @@ Session ID: 572ef208384a1c831ea910772b32eb7f
 <pre>Element should be visible {.notification_status_error}
 Element: '&lt;div class=&quot;notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white&quot; displayed:false&gt;&lt;/div&gt;'
 Actual value: visible:false
-Screenshot: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1621093887889.0.png
-Page source: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1621093887889.0.html
+Screenshot: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1621093944013.4.png
+Page source: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1621093944013.4.html
 Timeout: 15 s.
 	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:121)
 	at com.codeborne.selenide.commands.Should.execute(Should.java:30)
@@ -486,8 +481,8 @@ Timeout: 15 s.
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:133)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:85)
 	at com.sun.proxy.$Proxy15.shouldBe(Unknown Source)
-	at ru.netology.page.CreditPage.declined(CreditPage.java:46)
-	at ru.netology.test.CreditRequestTest.shouldPaymentDeclinedCard(CreditRequestTest.java:47)
+	at ru.netology.page.PaymentPage.declined(PaymentPage.java:45)
+	at ru.netology.test.PaymentTest.shouldPaymentDeclinedCard(PaymentTest.java:48)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -593,43 +588,31 @@ Timeout: 15 s.
 </tr>
 </thead>
 <tr>
-<td class="success">shouldCreditApprovedCard()</td>
-<td class="success">14.196s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
 <td class="failures">shouldGetNotificationEmptyFields()</td>
-<td class="failures">5.899s</td>
+<td class="failures">6.149s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="failures">shouldGetNotificationInvalidCard()</td>
-<td class="failures">8.356s</td>
+<td class="failures">8.406s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="failures">shouldGetNotificationWrongFormatCard()</td>
-<td class="failures">8.255s</td>
+<td class="failures">7.337s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
+<td class="success">shouldPaymentApprovedCard()</td>
+<td class="success">11.788s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
 <td class="failures">shouldPaymentDeclinedCard()</td>
-<td class="failures">29.014s</td>
+<td class="failures">18.895s</td>
 <td class="failures">failed</td>
 </tr>
 </table>
-</div>
-<div id="tab2" class="tab">
-<h2>Standard error</h2>
-<span class="code">
-<pre>Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 8042
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-мая 15, 2021 6:51:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-</pre>
-</span>
 </div>
 </div>
 <div id="footer">
