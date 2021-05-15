@@ -1,0 +1,375 @@
+{
+  "uid" : "ea7aaff7856795c2",
+  "name" : "shouldPaymentApprovedCard()",
+  "fullName" : "ru.netology.test.PaymentTest.shouldPaymentApprovedCard",
+  "historyId" : "2574955e001a2394e9997fd55babdb67",
+  "time" : {
+    "start" : 1620841968430,
+    "stop" : 1620841982711,
+    "duration" : 14281
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") http://localhost:8080/",
+      "time" : {
+        "start" : 1620841968615,
+        "stop" : 1620841974181,
+        "duration" : 5566
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".heading.findBy(exact text 'Путешествие дня')\") should be(visible)",
+      "time" : {
+        "start" : 1620841974942,
+        "stop" : 1620841975230,
+        "duration" : 288
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".button__text.findBy(exact text 'Купить')\") click()",
+      "time" : {
+        "start" : 1620841975230,
+        "stop" : 1620841975632,
+        "duration" : 402
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".heading.findBy(exact text 'Оплата по карте')\") should be(visible)",
+      "time" : {
+        "start" : 1620841975674,
+        "stop" : 1620841975871,
+        "duration" : 197
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".input [placeholder='0000 0000 0000 0000']\") set value(4444 4444 4444 4441)",
+      "time" : {
+        "start" : 1620841975871,
+        "stop" : 1620841976302,
+        "duration" : 431
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".input [placeholder='08']\") set value(08)",
+      "time" : {
+        "start" : 1620841976302,
+        "stop" : 1620841976615,
+        "duration" : 313
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".input [placeholder='22']\") set value(23)",
+      "time" : {
+        "start" : 1620841976615,
+        "stop" : 1620841976953,
+        "duration" : 338
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".input__top.findBy(text 'Владелец')/By.xpath: ../.input__control\") set value(WEHNER FREDDIE)",
+      "time" : {
+        "start" : 1620841976954,
+        "stop" : 1620841977521,
+        "duration" : 567
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".input [placeholder='999']\") set value(435)",
+      "time" : {
+        "start" : 1620841977521,
+        "stop" : 1620841977782,
+        "duration" : 261
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".form-field button\") click()",
+      "time" : {
+        "start" : 1620841977782,
+        "stop" : 1620841977979,
+        "duration" : 197
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".notification_status_ok\") should be([visible, 15 s.])",
+      "time" : {
+        "start" : 1620841977981,
+        "stop" : 1620841981237,
+        "duration" : 3256
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "localhost.localdomain"
+  }, {
+    "name" : "thread",
+    "value" : "16467@localhost.localdomain.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ru.netology.test.PaymentTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.netology.test.PaymentTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldPaymentApprovedCard"
+  }, {
+    "name" : "suite",
+    "value" : "ru.netology.test.PaymentTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6dfbf1aac71cb41c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620841581459,
+        "stop" : 1620841598337,
+        "duration" : 16878
+      }
+    }, {
+      "uid" : "5855961d375f42c4",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.input__top.findBy(text 'Владелец')/By.xpath: ancestor::*[contains(concat(' ', normalize-space(@class), ' '), ' input__box ')][1]}\nExpected: exist\nScreenshot: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620841248390.1.png\nPage source: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620841248390.1.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"ancestor::*[contains(concat(' ', normalize-space(@class), ' '), ' input__box ')][1]\"}",
+      "time" : {
+        "start" : 1620841235104,
+        "stop" : 1620841249155,
+        "duration" : 14051
+      }
+    }, {
+      "uid" : "85b72fa14e18b6bf",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.input__top.findBy(text 'Владелец')/By.xpath: ancestor::input[1]}\nExpected: visible or transparent: visible or have css value opacity=0\nScreenshot: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620840810597.0.png\nPage source: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620840810597.0.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"ancestor::input[1]\"}",
+      "time" : {
+        "start" : 1620840797185,
+        "stop" : 1620840811536,
+        "duration" : 14351
+      }
+    }, {
+      "uid" : "59310adf2eff2d83",
+      "status" : "failed",
+      "statusDetails" : "Element not found {by text: Владелец/By.xpath: ancestor::input[1]}\nExpected: visible or transparent: visible or have css value opacity=0\nScreenshot: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620840723835.0.png\nPage source: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620840723835.0.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"ancestor::input[1]\"}",
+      "time" : {
+        "start" : 1620840710677,
+        "stop" : 1620840724738,
+        "duration" : 14061
+      }
+    }, {
+      "uid" : "484a097abd1aab44",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state: invalid element state\nScreenshot: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620840482702.0.png\nPage source: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620840482702.0.html\nTimeout: 4 s.\nCaused by: InvalidElementStateException: invalid element state",
+      "time" : {
+        "start" : 1620840469258,
+        "stop" : 1620840483670,
+        "duration" : 14412
+      }
+    }, {
+      "uid" : "baa46232e96e2488",
+      "status" : "broken",
+      "statusDetails" : "class com.codeborne.selenide.ElementsCollection cannot be cast to class com.codeborne.selenide.SelenideElement (com.codeborne.selenide.ElementsCollection and com.codeborne.selenide.SelenideElement are in unnamed module of loader 'app')",
+      "time" : {
+        "start" : 1620840211189,
+        "stop" : 1620840217975,
+        "duration" : 6786
+      }
+    }, {
+      "uid" : "611830416ed6b31e",
+      "status" : "broken",
+      "statusDetails" : "class com.codeborne.selenide.ElementsCollection cannot be cast to class com.codeborne.selenide.SelenideElement (com.codeborne.selenide.ElementsCollection and com.codeborne.selenide.SelenideElement are in unnamed module of loader 'app')",
+      "time" : {
+        "start" : 1620840141141,
+        "stop" : 1620840148657,
+        "duration" : 7516
+      }
+    }, {
+      "uid" : "202b07f1ade08a59",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state: invalid element state\nScreenshot: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620839962974.0.png\nPage source: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620839962974.0.html\nTimeout: 4 s.\nCaused by: InvalidElementStateException: invalid element state",
+      "time" : {
+        "start" : 1620839950688,
+        "stop" : 1620839963839,
+        "duration" : 13151
+      }
+    }, {
+      "uid" : "b944cfc3a72eccac",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state: invalid element state\nScreenshot: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620836652296.0.png\nPage source: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620836652296.0.html\nTimeout: 4 s.\nCaused by: InvalidElementStateException: invalid element state",
+      "time" : {
+        "start" : 1620836638584,
+        "stop" : 1620836653150,
+        "duration" : 14566
+      }
+    }, {
+      "uid" : "5e5101ce618bd58d",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state: invalid element state\nScreenshot: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620759388776.0.png\nPage source: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620759388776.0.html\nTimeout: 4 s.\nCaused by: InvalidElementStateException: invalid element state",
+      "time" : {
+        "start" : 1620759375288,
+        "stop" : 1620759389635,
+        "duration" : 14347
+      }
+    }, {
+      "uid" : "309484c7c7ed279b",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state: invalid element state\nScreenshot: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620758915728.0.png\nPage source: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620758915728.0.html\nTimeout: 4 s.\nCaused by: InvalidElementStateException: invalid element state",
+      "time" : {
+        "start" : 1620758902860,
+        "stop" : 1620758916826,
+        "duration" : 13966
+      }
+    }, {
+      "uid" : "591426152a37a9b0",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state: invalid element state\nScreenshot: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620758659040.0.png\nPage source: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620758659040.0.html\nTimeout: 4 s.\nCaused by: InvalidElementStateException: invalid element state",
+      "time" : {
+        "start" : 1620758645779,
+        "stop" : 1620758659928,
+        "duration" : 14149
+      }
+    }, {
+      "uid" : "4e41e663397b3021",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.input__control.findBy(text 'Владелец')}\nExpected: visible or transparent: visible or have css value opacity=0\nScreenshot: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620758590695.0.png\nPage source: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620758590695.0.html\nTimeout: 4 s.\nCaused by: Element not found {.input__control.findBy(text 'Владелец')}\nExpected: text 'Владелец'\nTimeout: 0 ms.",
+      "time" : {
+        "start" : 1620758577054,
+        "stop" : 1620758591604,
+        "duration" : 14550
+      }
+    }, {
+      "uid" : "f0556df8af6b28b",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state: invalid element state\nScreenshot: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620758290358.0.png\nPage source: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620758290358.0.html\nTimeout: 4 s.\nCaused by: InvalidElementStateException: invalid element state",
+      "time" : {
+        "start" : 1620758276328,
+        "stop" : 1620758291264,
+        "duration" : 14936
+      }
+    }, {
+      "uid" : "2786b73647569dd8",
+      "status" : "failed",
+      "statusDetails" : "Element not found {by text: Владелец/By.xpath: ../input__box}\nExpected: exist\nScreenshot: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620758109562.1.png\nPage source: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620758109562.1.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"input__box\"}",
+      "time" : {
+        "start" : 1620758094979,
+        "stop" : 1620758110430,
+        "duration" : 15451
+      }
+    }, {
+      "uid" : "12de27c01dbd7e32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620310150636,
+        "stop" : 1620310162271,
+        "duration" : 11635
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ea7aaff7856795c2.json",
+  "parameterValues" : [ ]
+}

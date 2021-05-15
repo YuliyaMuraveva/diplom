@@ -1,0 +1,147 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "ru.netology.test",
+    "children" : [ {
+      "name" : "CreditRequestTest",
+      "children" : [ {
+        "name" : "shouldPaymentDeclinedCard",
+        "uid" : "9a30e9a676e50e2c",
+        "parentUid" : "be1bb1452c51b47c5d2a083e472db2ef",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620310068349,
+          "stop" : 1620310098389,
+          "duration" : 30040
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldGetNotificationInvalidCard",
+        "uid" : "4dcad691dc3ac5f9",
+        "parentUid" : "be1bb1452c51b47c5d2a083e472db2ef",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620310104754,
+          "stop" : 1620310112221,
+          "duration" : 7467
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldCreditApprovedCard",
+        "uid" : "a8fb48956de9c343",
+        "parentUid" : "be1bb1452c51b47c5d2a083e472db2ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620843327855,
+          "stop" : 1620843349044,
+          "duration" : 21189
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldGetNotificationWrongFormatCard",
+        "uid" : "f3ba501b00a71e6d",
+        "parentUid" : "be1bb1452c51b47c5d2a083e472db2ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620843361275,
+          "stop" : 1620843372976,
+          "duration" : 11701
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldGetNotificationEmptyFields",
+        "uid" : "cb8a72283475bdba",
+        "parentUid" : "be1bb1452c51b47c5d2a083e472db2ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620843384226,
+          "stop" : 1620843393129,
+          "duration" : 8903
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "be1bb1452c51b47c5d2a083e472db2ef"
+    }, {
+      "name" : "PaymentTest",
+      "children" : [ {
+        "name" : "shouldPaymentDeclinedCard",
+        "uid" : "7b639e883bdd78be",
+        "parentUid" : "45114d762d9b9aede5966500e1b396a7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620310125308,
+          "stop" : 1620310143363,
+          "duration" : 18055
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldGetNotificationInvalidCard",
+        "uid" : "662bce04b6935211",
+        "parentUid" : "45114d762d9b9aede5966500e1b396a7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620758332948,
+          "stop" : 1620758348622,
+          "duration" : 15674
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldPaymentApprovedCard",
+        "uid" : "ea7aaff7856795c2",
+        "parentUid" : "45114d762d9b9aede5966500e1b396a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620841968430,
+          "stop" : 1620841982711,
+          "duration" : 14281
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldGetNotificationEmptyFields",
+        "uid" : "419621eb9b4ea796",
+        "parentUid" : "45114d762d9b9aede5966500e1b396a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620842433523,
+          "stop" : 1620842441187,
+          "duration" : 7664
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldGetNotificationWrongFormatCard",
+        "uid" : "c397e0192b7efb18",
+        "parentUid" : "45114d762d9b9aede5966500e1b396a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620842917606,
+          "stop" : 1620842928628,
+          "duration" : 11022
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "45114d762d9b9aede5966500e1b396a7"
+    } ],
+    "uid" : "ru.netology.test"
+  } ],
+  "name" : "packages"
+}

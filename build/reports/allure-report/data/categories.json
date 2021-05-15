@@ -1,0 +1,77 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element should be visible {.notification_status_error}\nElement: '<div class=\"notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\" displayed:false></div>'\nActual value: visible:false\nScreenshot: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620310097540.0.png\nPage source: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620310097540.0.html\nTimeout: 15 s.",
+      "children" : [ {
+        "name" : "shouldPaymentDeclinedCard()",
+        "uid" : "9a30e9a676e50e2c",
+        "parentUid" : "9d74ca038ff64b02d63774e033914e78",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620310068349,
+          "stop" : 1620310098389,
+          "duration" : 30040
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9d74ca038ff64b02d63774e033914e78"
+    }, {
+      "name" : "Element not found {.input__inner[3]/.input__sub}\nExpected: visible\nScreenshot: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620310111451.1.png\nPage source: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620310111451.1.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".input__sub\"}",
+      "children" : [ {
+        "name" : "shouldGetNotificationInvalidCard()",
+        "uid" : "4dcad691dc3ac5f9",
+        "parentUid" : "4f4107d0a9e05a70ce6bc586c9a9da8d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620310104754,
+          "stop" : 1620310112221,
+          "duration" : 7467
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4f4107d0a9e05a70ce6bc586c9a9da8d"
+    }, {
+      "name" : "Element should be visible {.notification_status_error}\nElement: '<div class=\"notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\" displayed:false></div>'\nActual value: visible:false\nScreenshot: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620310142634.4.png\nPage source: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620310142634.4.html\nTimeout: 15 s.",
+      "children" : [ {
+        "name" : "shouldPaymentDeclinedCard()",
+        "uid" : "7b639e883bdd78be",
+        "parentUid" : "01c74e59671185a79871a4f6d0cb2386",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620310125308,
+          "stop" : 1620310143363,
+          "duration" : 18055
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "01c74e59671185a79871a4f6d0cb2386"
+    }, {
+      "name" : "Element not found {by text: Владелец/By.xpath: ../.input__sub}\nExpected: visible\nScreenshot: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620758347658.0.png\nPage source: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620758347658.0.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".input__sub\"}",
+      "children" : [ {
+        "name" : "shouldGetNotificationInvalidCard()",
+        "uid" : "662bce04b6935211",
+        "parentUid" : "7a13d5fe3697829e850adc584d939441",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620758332948,
+          "stop" : 1620758348622,
+          "duration" : 15674
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7a13d5fe3697829e850adc584d939441"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

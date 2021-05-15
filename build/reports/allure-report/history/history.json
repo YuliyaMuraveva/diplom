@@ -1,0 +1,196 @@
+{
+  "ba2f0bc719ba671e62ecb92072f1ff66" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4dcad691dc3ac5f9",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.input__inner[3]/.input__sub}\nExpected: visible\nScreenshot: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620310111451.1.png\nPage source: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620310111451.1.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".input__sub\"}",
+      "time" : {
+        "start" : 1620310104754,
+        "stop" : 1620310112221,
+        "duration" : 7467
+      }
+    } ]
+  },
+  "9c6717732b0127daa19600e305bbfe8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cb8a72283475bdba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620843384226,
+        "stop" : 1620843393129,
+        "duration" : 8903
+      }
+    } ]
+  },
+  "5deb4cef54c7f2a4d39c76091dd12592" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c397e0192b7efb18",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620842917606,
+        "stop" : 1620842928628,
+        "duration" : 11022
+      }
+    } ]
+  },
+  "d8757b35e45dfacedb7262d0f64d8dbd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a8fb48956de9c343",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620843327855,
+        "stop" : 1620843349044,
+        "duration" : 21189
+      }
+    } ]
+  },
+  "97487d99206170885a2762c2690a7ff9" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7b639e883bdd78be",
+      "status" : "failed",
+      "statusDetails" : "Element should be visible {.notification_status_error}\nElement: '<div class=\"notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\" displayed:false></div>'\nActual value: visible:false\nScreenshot: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620310142634.4.png\nPage source: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620310142634.4.html\nTimeout: 15 s.",
+      "time" : {
+        "start" : 1620310125308,
+        "stop" : 1620310143363,
+        "duration" : 18055
+      }
+    } ]
+  },
+  "85d9b2fcb26c5d429753b1032672c402" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "419621eb9b4ea796",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620842433523,
+        "stop" : 1620842441187,
+        "duration" : 7664
+      }
+    } ]
+  },
+  "2574955e001a2394e9997fd55babdb67" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ea7aaff7856795c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620841968430,
+        "stop" : 1620841982711,
+        "duration" : 14281
+      }
+    } ]
+  },
+  "96ed41fc4d9879745208a7c7d2421771" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9a30e9a676e50e2c",
+      "status" : "failed",
+      "statusDetails" : "Element should be visible {.notification_status_error}\nElement: '<div class=\"notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\" displayed:false></div>'\nActual value: visible:false\nScreenshot: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620310097540.0.png\nPage source: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620310097540.0.html\nTimeout: 15 s.",
+      "time" : {
+        "start" : 1620310068349,
+        "stop" : 1620310098389,
+        "duration" : 30040
+      }
+    } ]
+  },
+  "d1933d77aa6d4fb4b16fe51f9d9c21c1" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "662bce04b6935211",
+      "status" : "failed",
+      "statusDetails" : "Element not found {by text: Владелец/By.xpath: ../.input__sub}\nExpected: visible\nScreenshot: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620758347658.0.png\nPage source: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620758347658.0.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".input__sub\"}",
+      "time" : {
+        "start" : 1620758332948,
+        "stop" : 1620758348622,
+        "duration" : 15674
+      }
+    } ]
+  },
+  "86b5e9ba56068a9b3615501ee06b0448" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f3ba501b00a71e6d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620843361275,
+        "stop" : 1620843372976,
+        "duration" : 11701
+      }
+    } ]
+  }
+}

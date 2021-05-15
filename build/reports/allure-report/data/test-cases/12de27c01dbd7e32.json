@@ -1,0 +1,231 @@
+{
+  "uid" : "12de27c01dbd7e32",
+  "name" : "shouldPaymentApprovedCard()",
+  "fullName" : "ru.netology.test.PaymentTest.shouldPaymentApprovedCard",
+  "historyId" : "2574955e001a2394e9997fd55babdb67",
+  "time" : {
+    "start" : 1620310150636,
+    "stop" : 1620310162271,
+    "duration" : 11635
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") http://localhost:8080/",
+      "time" : {
+        "start" : 1620310150637,
+        "stop" : 1620310150803,
+        "duration" : 166
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".heading.findBy(exact text 'Путешествие дня')\") should be(visible)",
+      "time" : {
+        "start" : 1620310150804,
+        "stop" : 1620310150912,
+        "duration" : 108
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".button__text.findBy(exact text 'Купить')\") click()",
+      "time" : {
+        "start" : 1620310150913,
+        "stop" : 1620310151138,
+        "duration" : 225
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".heading.findBy(exact text 'Оплата по карте')\") should be(visible)",
+      "time" : {
+        "start" : 1620310151138,
+        "stop" : 1620310151327,
+        "duration" : 189
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".input [placeholder='0000 0000 0000 0000']\") set value(4444 4444 4444 4441)",
+      "time" : {
+        "start" : 1620310151328,
+        "stop" : 1620310151778,
+        "duration" : 450
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".input [placeholder='08']\") set value(08)",
+      "time" : {
+        "start" : 1620310151778,
+        "stop" : 1620310152045,
+        "duration" : 267
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".input [placeholder='22']\") set value(23)",
+      "time" : {
+        "start" : 1620310152045,
+        "stop" : 1620310152307,
+        "duration" : 262
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".input__control[3]\") set value(SCHIMMEL TERRIE)",
+      "time" : {
+        "start" : 1620310152307,
+        "stop" : 1620310152649,
+        "duration" : 342
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".input [placeholder='999']\") set value(960)",
+      "time" : {
+        "start" : 1620310152649,
+        "stop" : 1620310152897,
+        "duration" : 248
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".form-field button\") click()",
+      "time" : {
+        "start" : 1620310152897,
+        "stop" : 1620310153110,
+        "duration" : 213
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".notification_status_ok\") should be([visible, 15 s.])",
+      "time" : {
+        "start" : 1620310153111,
+        "stop" : 1620310162254,
+        "duration" : 9143
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "localhost.localdomain"
+  }, {
+    "name" : "thread",
+    "value" : "21939@localhost.localdomain.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ru.netology.test.PaymentTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.netology.test.PaymentTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldPaymentApprovedCard"
+  }, {
+    "name" : "suite",
+    "value" : "ru.netology.test.PaymentTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "12de27c01dbd7e32.json",
+  "parameterValues" : [ ]
+}

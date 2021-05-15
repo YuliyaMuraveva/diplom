@@ -1,0 +1,317 @@
+{
+  "uid" : "f3ba501b00a71e6d",
+  "name" : "shouldGetNotificationWrongFormatCard()",
+  "fullName" : "ru.netology.test.CreditRequestTest.shouldGetNotificationWrongFormatCard",
+  "historyId" : "86b5e9ba56068a9b3615501ee06b0448",
+  "time" : {
+    "start" : 1620843361275,
+    "stop" : 1620843372976,
+    "duration" : 11701
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") http://localhost:8080/",
+      "time" : {
+        "start" : 1620843361473,
+        "stop" : 1620843367784,
+        "duration" : 6311
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".heading.findBy(exact text 'Путешествие дня')\") should be(visible)",
+      "time" : {
+        "start" : 1620843368213,
+        "stop" : 1620843368468,
+        "duration" : 255
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".button__text.findBy(exact text 'Купить в кредит')\") click()",
+      "time" : {
+        "start" : 1620843368468,
+        "stop" : 1620843368973,
+        "duration" : 505
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".heading.findBy(exact text 'Кредит по данным карты')\") should be(visible)",
+      "time" : {
+        "start" : 1620843369014,
+        "stop" : 1620843369238,
+        "duration" : 224
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".input [placeholder='0000 0000 0000 0000']\") set value(4444)",
+      "time" : {
+        "start" : 1620843369239,
+        "stop" : 1620843369753,
+        "duration" : 514
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".input [placeholder='08']\") set value(444)",
+      "time" : {
+        "start" : 1620843369753,
+        "stop" : 1620843370140,
+        "duration" : 387
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".input [placeholder='22']\") set value(4)",
+      "time" : {
+        "start" : 1620843370140,
+        "stop" : 1620843370429,
+        "duration" : 289
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".input__top.findBy(text 'Владелец')/By.xpath: ../.input__control\") set value(4444 @!)",
+      "time" : {
+        "start" : 1620843370430,
+        "stop" : 1620843371188,
+        "duration" : 758
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".input [placeholder='999']\") set value(1)",
+      "time" : {
+        "start" : 1620843371189,
+        "stop" : 1620843371468,
+        "duration" : 279
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".form-field button\") click()",
+      "time" : {
+        "start" : 1620843371468,
+        "stop" : 1620843371714,
+        "duration" : 246
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".input__top.findBy(text 'Номер карты')/By.xpath: ../.input__sub\") should be(visible)",
+      "time" : {
+        "start" : 1620843371714,
+        "stop" : 1620843371972,
+        "duration" : 258
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".input__top.findBy(text 'Номер карты')/By.xpath: ../.input__sub\") should have(own text 'Неверный формат')",
+      "time" : {
+        "start" : 1620843371973,
+        "stop" : 1620843372095,
+        "duration" : 122
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".input__top.findBy(text 'Год')/By.xpath: ../.input__sub\") should be(visible)",
+      "time" : {
+        "start" : 1620843372096,
+        "stop" : 1620843372327,
+        "duration" : 231
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".input__top.findBy(text 'Год')/By.xpath: ../.input__sub\") should have(own text 'Неверный формат')",
+      "time" : {
+        "start" : 1620843372328,
+        "stop" : 1620843372478,
+        "duration" : 150
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".input__top.findBy(text 'CVC/CVV')/By.xpath: ../.input__sub\") should be(visible)",
+      "time" : {
+        "start" : 1620843372478,
+        "stop" : 1620843372745,
+        "duration" : 267
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".input__top.findBy(text 'CVC/CVV')/By.xpath: ../.input__sub\") should have(own text 'Неверный формат')",
+      "time" : {
+        "start" : 1620843372746,
+        "stop" : 1620843372953,
+        "duration" : 207
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 16,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "localhost.localdomain"
+  }, {
+    "name" : "thread",
+    "value" : "18480@localhost.localdomain.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ru.netology.test.CreditRequestTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.netology.test.CreditRequestTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldGetNotificationWrongFormatCard"
+  }, {
+    "name" : "suite",
+    "value" : "ru.netology.test.CreditRequestTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ec9a0db6b5e99c3a",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.input__inner[1]/.input__sub}\nExpected: visible\nScreenshot: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620310118757.2.png\nPage source: file:/home/kotya/netologyJAVA/dip/build/reports/tests/1620310118757.2.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".input__sub\"}",
+      "time" : {
+        "start" : 1620310112233,
+        "stop" : 1620310119497,
+        "duration" : 7264
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f3ba501b00a71e6d.json",
+  "parameterValues" : [ ]
+}
